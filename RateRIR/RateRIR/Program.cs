@@ -18,7 +18,6 @@ void EmpRateAdded(object sender, EventArgs args)
 
 Console.WriteLine("wybierz jedną z podanych opcji: d - dodaj ocenę dla serii, s - pokaż statystyki, m - pokaz menu, q - wyjdź");
 string select = Console.ReadLine();
-
 bool isOpen = true;
 
 while (isOpen)
